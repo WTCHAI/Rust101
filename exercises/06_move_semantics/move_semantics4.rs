@@ -1,5 +1,13 @@
 fn main() {
     // You can optionally experiment here.
+
+    let mut x = Vec::new() ; 
+    let y = &mut x;
+    y.push(1);
+    
+    let z = &mut x;
+    z.push(2);
+    assert_eq!(x, [1, 2]);
 }
 
 #[cfg(test)]

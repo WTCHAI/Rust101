@@ -14,9 +14,9 @@ impl Package {
         }
 
         Self {
-            sender_country,
-            recipient_country,
-            weight_in_grams,
+            sender_country : sender_country,
+            recipient_country : recipient_country,
+            weight_in_grams : weight_in_grams,
         }
     }
 

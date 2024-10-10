@@ -1,15 +1,16 @@
-fn array_and_vec() -> ([i32; 4], Vec<i32>) {
+fn array_and_vec() -> ([i32; 4] , Vec<i32>) {
     let a = [10, 20, 30, 40]; // Array
+    let v = vec![10, 20, 30, 40];
 
     // TODO: Create a vector called `v` which contains the exact same elements as in the array `a`.
     // Use the vector macro.
-    // let v = ???;
-
     (a, v)
 }
 
 fn main() {
     // You can optionally experiment here.
+    // let (a,v) =  array_and_vec() ; 
+    
 }
 
 #[cfg(test)]

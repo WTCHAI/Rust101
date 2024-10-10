@@ -25,6 +25,7 @@ fn animal_habitat(animal: &str) -> &str {
 
 fn main() {
     // You can optionally experiment here.
+    animal_habitat
 }
 
 #[cfg(test)]

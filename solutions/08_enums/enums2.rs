@@ -10,7 +10,7 @@ enum Message {
     Move(Point),
     Echo(String),
     ChangeColor(u8, u8, u8),
-    Quit,
+    JOIN,
 }
 
 impl Message {
@@ -28,7 +28,7 @@ fn main() {
         Message::Move(Point { x: 10, y: 15 }),
         Message::Echo(String::from("hello world")),
         Message::ChangeColor(200, 255, 255),
-        Message::Quit,
+        Message::JOIN,
     ];
 
     for message in &messages {

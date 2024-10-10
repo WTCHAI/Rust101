@@ -9,9 +9,9 @@ fn get_char(data: &String) -> char {
 
 // Takes ownership instead of borrowing.
 fn string_uppercase(mut data: String) {
-    data = data.to_uppercase();
+    let data1 = data.to_uppercase();
 
-    println!("{data}");
+    println!("{data1}");
 }
 
 fn main() {

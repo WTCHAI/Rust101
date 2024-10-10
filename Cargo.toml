@@ -89,3 +89,4 @@ needless_option_as_deref = "allow"
 
 [lints]
 workspace = true
+

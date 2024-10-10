@@ -10,6 +10,7 @@ fn picky_eater(food: &str) -> &str {
 
 fn main() {
     // You can optionally experiment here.
+    
 }
 
 #[cfg(test)]
